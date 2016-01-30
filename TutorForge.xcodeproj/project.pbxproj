@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74421F711C5C66E400AF724A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74421F701C5C66E400AF724A /* main.m */; };
+		74421F741C5C66E400AF724A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74421F731C5C66E400AF724A /* AppDelegate.m */; };
+		74421F771C5C66E400AF724A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74421F761C5C66E400AF724A /* ViewController.m */; };
+		74421F7A1C5C66E400AF724A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74421F781C5C66E400AF724A /* Main.storyboard */; };
+		74421F7D1C5C66E400AF724A /* TutorForge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74421F7B1C5C66E400AF724A /* TutorForge.xcdatamodeld */; };
+		74421F7F1C5C66E400AF724A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74421F7E1C5C66E400AF724A /* Assets.xcassets */; };
+		74421F821C5C66E400AF724A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74421F801C5C66E400AF724A /* LaunchScreen.storyboard */; };
+		74421F8D1C5C66E500AF724A /* TutorForgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74421F8C1C5C66E500AF724A /* TutorForgeTests.m */; };
+		74421F981C5C66E500AF724A /* TutorForgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74421F971C5C66E500AF724A /* TutorForgeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74421F891C5C66E500AF724A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74421F641C5C66E300AF724A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74421F6B1C5C66E300AF724A;
+			remoteInfo = TutorForge;
+		};
+		74421F941C5C66E500AF724A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74421F641C5C66E300AF724A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74421F6B1C5C66E300AF724A;
+			remoteInfo = TutorForge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74421F6C1C5C66E300AF724A /* TutorForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74421F701C5C66E400AF724A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74421F721C5C66E400AF724A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74421F731C5C66E400AF724A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74421F751C5C66E400AF724A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74421F761C5C66E400AF724A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74421F791C5C66E400AF724A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74421F7C1C5C66E400AF724A /* TutorForge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TutorForge.xcdatamodel; sourceTree = "<group>"; };
+		74421F7E1C5C66E400AF724A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74421F811C5C66E400AF724A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74421F831C5C66E400AF724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74421F881C5C66E500AF724A /* TutorForgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorForgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74421F8C1C5C66E500AF724A /* TutorForgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorForgeTests.m; sourceTree = "<group>"; };
+		74421F8E1C5C66E500AF724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74421F931C5C66E500AF724A /* TutorForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74421F971C5C66E500AF724A /* TutorForgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorForgeUITests.m; sourceTree = "<group>"; };
+		74421F991C5C66E500AF724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74421F691C5C66E300AF724A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74421F851C5C66E500AF724A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74421F901C5C66E500AF724A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74421F631C5C66E300AF724A = {
+			isa = PBXGroup;
+			children = (
+				74421F6E1C5C66E400AF724A /* TutorForge */,
+				74421F8B1C5C66E500AF724A /* TutorForgeTests */,
+				74421F961C5C66E500AF724A /* TutorForgeUITests */,
+				74421F6D1C5C66E300AF724A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74421F6D1C5C66E300AF724A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74421F6C1C5C66E300AF724A /* TutorForge.app */,
+				74421F881C5C66E500AF724A /* TutorForgeTests.xctest */,
+				74421F931C5C66E500AF724A /* TutorForgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74421F6E1C5C66E400AF724A /* TutorForge */ = {
+			isa = PBXGroup;
+			children = (
+				74421F721C5C66E400AF724A /* AppDelegate.h */,
+				74421F731C5C66E400AF724A /* AppDelegate.m */,
+				74421F751C5C66E400AF724A /* ViewController.h */,
+				74421F761C5C66E400AF724A /* ViewController.m */,
+				74421F781C5C66E400AF724A /* Main.storyboard */,
+				74421F7E1C5C66E400AF724A /* Assets.xcassets */,
+				74421F801C5C66E400AF724A /* LaunchScreen.storyboard */,
+				74421F831C5C66E400AF724A /* Info.plist */,
+				74421F7B1C5C66E400AF724A /* TutorForge.xcdatamodeld */,
+				74421F6F1C5C66E400AF724A /* Supporting Files */,
+			);
+			path = TutorForge;
+			sourceTree = "<group>";
+		};
+		74421F6F1C5C66E400AF724A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74421F701C5C66E400AF724A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74421F8B1C5C66E500AF724A /* TutorForgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				74421F8C1C5C66E500AF724A /* TutorForgeTests.m */,
+				74421F8E1C5C66E500AF724A /* Info.plist */,
+			);
+			path = TutorForgeTests;
+			sourceTree = "<group>";
+		};
+		74421F961C5C66E500AF724A /* TutorForgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74421F971C5C66E500AF724A /* TutorForgeUITests.m */,
+				74421F991C5C66E500AF724A /* Info.plist */,
+			);
+			path = TutorForgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74421F6B1C5C66E300AF724A /* TutorForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74421F9C1C5C66E500AF724A /* Build configuration list for PBXNativeTarget "TutorForge" */;
+			buildPhases = (
+				74421F681C5C66E300AF724A /* Sources */,
+				74421F691C5C66E300AF724A /* Frameworks */,
+				74421F6A1C5C66E300AF724A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorForge;
+			productName = TutorForge;
+			productReference = 74421F6C1C5C66E300AF724A /* TutorForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74421F871C5C66E500AF724A /* TutorForgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74421F9F1C5C66E500AF724A /* Build configuration list for PBXNativeTarget "TutorForgeTests" */;
+			buildPhases = (
+				74421F841C5C66E500AF724A /* Sources */,
+				74421F851C5C66E500AF724A /* Frameworks */,
+				74421F861C5C66E500AF724A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74421F8A1C5C66E500AF724A /* PBXTargetDependency */,
+			);
+			name = TutorForgeTests;
+			productName = TutorForgeTests;
+			productReference = 74421F881C5C66E500AF724A /* TutorForgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74421F921C5C66E500AF724A /* TutorForgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74421FA21C5C66E500AF724A /* Build configuration list for PBXNativeTarget "TutorForgeUITests" */;
+			buildPhases = (
+				74421F8F1C5C66E500AF724A /* Sources */,
+				74421F901C5C66E500AF724A /* Frameworks */,
+				74421F911C5C66E500AF724A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74421F951C5C66E500AF724A /* PBXTargetDependency */,
+			);
+			name = TutorForgeUITests;
+			productName = TutorForgeUITests;
+			productReference = 74421F931C5C66E500AF724A /* TutorForgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74421F641C5C66E300AF724A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Learnsmith Solutions";
+				TargetAttributes = {
+					74421F6B1C5C66E300AF724A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5A5LW7S4L5;
+					};
+					74421F871C5C66E500AF724A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74421F6B1C5C66E300AF724A;
+					};
+					74421F921C5C66E500AF724A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74421F6B1C5C66E300AF724A;
+					};
+				};
+			};
+			buildConfigurationList = 74421F671C5C66E300AF724A /* Build configuration list for PBXProject "TutorForge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74421F631C5C66E300AF724A;
+			productRefGroup = 74421F6D1C5C66E300AF724A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74421F6B1C5C66E300AF724A /* TutorForge */,
+				74421F871C5C66E500AF724A /* TutorForgeTests */,
+				74421F921C5C66E500AF724A /* TutorForgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74421F6A1C5C66E300AF724A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74421F821C5C66E400AF724A /* LaunchScreen.storyboard in Resources */,
+				74421F7F1C5C66E400AF724A /* Assets.xcassets in Resources */,
+				74421F7A1C5C66E400AF724A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74421F861C5C66E500AF724A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74421F911C5C66E500AF724A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74421F681C5C66E300AF724A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74421F7D1C5C66E400AF724A /* TutorForge.xcdatamodeld in Sources */,
+				74421F771C5C66E400AF724A /* ViewController.m in Sources */,
+				74421F741C5C66E400AF724A /* AppDelegate.m in Sources */,
+				74421F711C5C66E400AF724A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74421F841C5C66E500AF724A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74421F8D1C5C66E500AF724A /* TutorForgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74421F8F1C5C66E500AF724A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74421F981C5C66E500AF724A /* TutorForgeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74421F8A1C5C66E500AF724A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74421F6B1C5C66E300AF724A /* TutorForge */;
+			targetProxy = 74421F891C5C66E500AF724A /* PBXContainerItemProxy */;
+		};
+		74421F951C5C66E500AF724A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74421F6B1C5C66E300AF724A /* TutorForge */;
+			targetProxy = 74421F941C5C66E500AF724A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74421F781C5C66E400AF724A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74421F791C5C66E400AF724A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74421F801C5C66E400AF724A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74421F811C5C66E400AF724A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74421F9A1C5C66E500AF724A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74421F9B1C5C66E500AF724A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74421F9D1C5C66E500AF724A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TutorForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Learnsmith-Solutions.TutorForge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74421F9E1C5C66E500AF724A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TutorForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Learnsmith-Solutions.TutorForge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74421FA01C5C66E500AF724A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TutorForgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Learnsmith-Solutions.TutorForgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutorForge.app/TutorForge";
+			};
+			name = Debug;
+		};
+		74421FA11C5C66E500AF724A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TutorForgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Learnsmith-Solutions.TutorForgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutorForge.app/TutorForge";
+			};
+			name = Release;
+		};
+		74421FA31C5C66E500AF724A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TutorForgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Learnsmith-Solutions.TutorForgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TutorForge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74421FA41C5C66E500AF724A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TutorForgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Learnsmith-Solutions.TutorForgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TutorForge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74421F671C5C66E300AF724A /* Build configuration list for PBXProject "TutorForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74421F9A1C5C66E500AF724A /* Debug */,
+				74421F9B1C5C66E500AF724A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74421F9C1C5C66E500AF724A /* Build configuration list for PBXNativeTarget "TutorForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74421F9D1C5C66E500AF724A /* Debug */,
+				74421F9E1C5C66E500AF724A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74421F9F1C5C66E500AF724A /* Build configuration list for PBXNativeTarget "TutorForgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74421FA01C5C66E500AF724A /* Debug */,
+				74421FA11C5C66E500AF724A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74421FA21C5C66E500AF724A /* Build configuration list for PBXNativeTarget "TutorForgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74421FA31C5C66E500AF724A /* Debug */,
+				74421FA41C5C66E500AF724A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74421F7B1C5C66E400AF724A /* TutorForge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74421F7C1C5C66E400AF724A /* TutorForge.xcdatamodel */,
+			);
+			currentVersion = 74421F7C1C5C66E400AF724A /* TutorForge.xcdatamodel */;
+			path = TutorForge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74421F641C5C66E300AF724A /* Project object */;
+}
